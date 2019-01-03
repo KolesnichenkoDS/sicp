@@ -3,8 +3,8 @@
 (provide
   average
   even?
-	sqr
-	sqrt)
+  sqr
+  sqrt)
 
 (define (average x y) (/ (+ x y) 2))
 
