@@ -1,8 +1,10 @@
 #lang racket
 
-(provide average
-	 sqr
-	 sqrt)
+(provide
+  average
+  even?
+	sqr
+	sqrt)
 
 (define (average x y) (/ (+ x y) 2))
 
