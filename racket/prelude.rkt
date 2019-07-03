@@ -3,6 +3,8 @@
 (provide
   average
   even?
+  odd?
+  one?
   sqr
   sqrt)
 
@@ -24,3 +26,7 @@
 
 (define (even? x)
   (= (remainder x 2) 0))
+
+(define (odd? x) (not (even? x)))
+
+(define (one? x) (= x 1))
